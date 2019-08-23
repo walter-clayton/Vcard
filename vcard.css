@@ -1,0 +1,160 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: white;
+	color: white;
+
+}
+
+.card {
+
+	text-align: center;
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10%;
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: black;
+
+
+}
+
+
+.stack {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	flex-direction: row;
+
+
+}
+
+.type {
+	width: 100%;
+		flex-direction: row;
+
+}
+
+
+ .remainer {
+    	border-radius: 50%;
+		border: 1px solid #ddd;
+		padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+img	{
+	    max-width: 40%;
+    	max-height: 40%;
+    	margin: auto;
+    	display: flex;
+    	border-radius: 50%;
+		border: 1px solid #ddd;
+		padding: 10px;  	
+}
+
+
+i {
+	display: flex;
+	font-size: 30px;
+	color: white;
+	align-items: stretch;
+	margin-left: 40px;
+	margin-right: 40px;
+	    	border-radius: 50%;
+		border: 1px solid #ddd;
+		padding: 10px;
+		text-decoration: none;
+}
+
+/*ANIMATIONS*/
+
+
+  i:hover {
+  	    background-color: black;
+  	    display: inline-flex;
+  	    align-items: center;
+  	    text-align: center;
+  	    flex-direction: row;
+  	    color: gold;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 10px;
+		text-decoration: none;
+	  }
+
+img:hover {
+		width: 150%;
+		height: 150%;
+	  	background-color: black;
+  	    display: block;
+  	    background-color: gold;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 5px;
+}
+
+.name:hover {
+	  	 background-color: black;
+  	    display: block;
+  	    color: gold;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 10px;
+}
+
+.role:hover {
+		background-color: black;
+  	    display: block;
+  	    color: gold;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 10px;
+}
+
+
+.stack:hover {
+		background-color: black;
+  	    display: inline-flex;
+  	    align-items: center;
+  	    text-align: center;
+  	    flex-direction: row;
+  	    color: gold;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 10px;
+		width: 250px;
+
+}
+
+.type:hover {
+		background-color: black;
+  	    display: inline-flex;
+  	    align-items: center;
+  	    text-align: center;
+  	    flex-direction: column;
+  	    color: gold;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 10px;
+		width: 250px;
+
+}
+.skills-frontend:hover {
+		background-color: black;
+  	    display: inline-flex;
+  	    align-items: center;
+  	    text-align: center;
+  	    flex-direction: row;
+  	    color: #b39800;
+  	    border-radius: 10%;
+		border: 1px solid #ddd;
+		padding: 10px;
+		width: 250px;
+}
